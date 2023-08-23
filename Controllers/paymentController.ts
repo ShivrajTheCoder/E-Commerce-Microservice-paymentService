@@ -5,8 +5,8 @@ import Razorpay = require("razorpay");
 //     key_secret: string;
 // }
 var instance = new Razorpay({
-    key_id:"rzp_test_sFSldafHF33EGU",
-    key_secret:"ttTPZrZ1DokL2filJLeJgwOd",
+    key_id:"Your-key-here",
+    key_secret:"your-secret-here",
 });
 export const NewPayement = async (req: Request, res: Response) => {
   console.log(req.body);
